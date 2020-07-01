@@ -1,0 +1,36 @@
+.menu-container {
+ border-right: 1px solid black;
+ display: grid;
+ grid-template-rows: 1fr 1fr 1fr;
+ justify-items: stretch;
+ height: 500px;
+}
+
+.menu-container div {
+ border: 1px solid black;
+ width: 150px;
+ height: 150px;
+ margin: 5px auto;
+ text-align: center;
+ display: grid;
+ place-content: center;
+}
+
+.red {
+ background-color: red;
+}
+
+.green {
+ background-color: green;
+}
+
+.orange {
+ background-color: orange;
+}
+
+#draggable {
+ width: 200px;
+ height: 20px;
+ text-align: center;
+ background: white;
+}

@@ -1,0 +1,14 @@
+.box-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: repeat(2, 300px);
+ justify-items: stretch;
+}
+
+
+@media only screen and (max-width: 480px) {
+ .box-grid {
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(3, 300px);
+ }
+}
